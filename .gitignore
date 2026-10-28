@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+*.cpuprofile
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Vite / Vitepress cache
+.viteclean
+.vitepress/cache/
+.vitepress/.temp/
+.turbo/
+
+# Local env files (Contains sensitive API keys/secrets)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDEs / Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
